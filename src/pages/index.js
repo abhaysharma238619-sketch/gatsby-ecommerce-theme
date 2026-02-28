@@ -26,28 +26,30 @@ const IndexPage = () => {
   };
 
   return (
-    <Layout disablePaddingBottom>
-      {/* Hero Container */}
+  <Layout disablePaddingBottom>
+    {/* Hero Container */}
+    <a 
+      href="https://wa.link/radhee" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
-        ctaAction={goToShop}
       />
+    </a>
 
-      {/* Message Container */}
-      <div className={styles.messageContainer}>
-        <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
-        </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
-      </div>
+    {/* Message Container */}
+    <div className={styles.messageContainer}>
+      <p>
+        This is a demonstration of the Sydney theme for verse by{' '}
+        <span className={styles.gold}>matter design.</span>
+      </p>
+      <p>
+        wear by <span className={styles.gold}>sunspel</span> and{' '}
+        <span className={styles.gold}>scotch&soda</span>
+      </p>
+    </div>
 
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
@@ -60,7 +62,11 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title 
+  name={'New Arrivals'} 
+  link={'https://wa.link/radhe'} 
+  textLink={'view all'} 
+/>
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -82,7 +88,7 @@ const IndexPage = () => {
             title={'Luxury Knitwear'}
             description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
             textLink={'shop now'}
-            link={'/shop'}
+            link={'https://wa.link/radhe'} 
           />
         </Container>
       </div>
@@ -91,8 +97,8 @@ const IndexPage = () => {
       <div className={styles.promotionContainer}>
         <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'https://wa.link/radhe'}>WOMAN</Link>
+          <Link to={'https://wa.link/radhe'}>MAN</Link>
         </div>
       </div>
 
