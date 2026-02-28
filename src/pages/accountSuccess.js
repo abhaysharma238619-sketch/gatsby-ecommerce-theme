@@ -27,7 +27,7 @@ const AccountSuccessPage = (props) => {
               title={'Shop'}
               icon={'bag'}
               subtitle={'Continue Shopping'}
-              link={'/shop'}
+              link={'https://wa.link/radhe'}
             />
           </div>
         </div>
